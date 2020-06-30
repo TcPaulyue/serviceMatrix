@@ -21,7 +21,7 @@ public class CoffeeMachineFilter {
     public CoffeeMachineMessage filterCoffeeMachineMessage(Message<CoffeeMachineMessage> coffeeMachineMsg){
         System.out.println("coffeeMachineMsg: "+coffeeMachineMsg.getPayload().coffeeMachineId+"   "+coffeeMachineMsg.getPayload().status);
         CoffeeMachineMessage coffeeMachineMessage = coffeeMachineMsg.getPayload();
-        coffeeMachineMessage.distance = 200.00;
+        coffeeMachineMessage.distance = 100.00;
         return coffeeMachineMessage;
     }
 }

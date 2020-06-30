@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/coffeemachine2service/target/" />
     <ignored path="$PROJECT_DIR$/personservice/target/" />
@@ -33,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+            <state relative-caret-position="320">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+            <state relative-caret-position="396">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="280">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,8 +182,8 @@
         <option value="$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" />
-        <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" />
       </list>
     </option>
   </component>
@@ -373,7 +361,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3226103" />
   </component>
@@ -434,12 +422,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593407055425</updated>
-      <workItem from="1593407056664" duration="21291000" />
+      <workItem from="1593407056664" duration="23009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21291000" />
+    <option name="totallyTimeSpent" value="23009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,11 +447,11 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.4978678" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.4946695" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.4360341" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.23560767" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
@@ -510,7 +498,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java</url>
-          <line>52</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -519,6 +507,18 @@
           <line>41</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -799,20 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="280">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,8 +811,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+        <state relative-caret-position="320">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
