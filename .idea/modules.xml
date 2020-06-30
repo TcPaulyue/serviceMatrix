@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" filepath="$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" />
       <module fileurl="file://$PROJECT_DIR$/personservice/personservice.iml" filepath="$PROJECT_DIR$/personservice/personservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/serviceMatrix.iml" filepath="$PROJECT_DIR$/.idea/serviceMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volunteerservice/volunteerservice.iml" filepath="$PROJECT_DIR$/volunteerservice/volunteerservice.iml" />
     </modules>
   </component>
 </project>

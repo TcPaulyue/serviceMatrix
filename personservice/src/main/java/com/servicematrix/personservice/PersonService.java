@@ -39,6 +39,12 @@ public class PersonService extends QuartzJobBean {
     @StreamListener(value = CoffeeMessagePublisher.cfFilterToCf)
     public void checkCoffeeMachineMessage(Message<CoffeeMachineMessage> coffeeMsg){
         CoffeeMachineMessage coffeeMachineMessage = coffeeMsg.getPayload();
-        System.out.println("-------"+coffeeMachineMessage.coffeeMachineId+"  "+coffeeMachineMessage.status);
+        System.out.println("-------"+ coffeeMachineMessage.getCoffeeMachineId() +"  "+coffeeMachineMessage.status);
+    }
+
+    @StreamListener(value = CoffeeMessagePublisher.volunteerToCfFilter)
+    public void checkVolunteerMessage(Message<VolunteerMessage> volunteerMsg){
+       VolunteerMessage volunteerMessage = volunteerMsg.getPayload();
+       System.out.println("--------"+volunteerMessage.volunteerName+"   "+volunteerMessage.status);
     }
 }

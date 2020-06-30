@@ -11,7 +11,7 @@ public class CoffeeMachineFilter {
 
     @Transformer(inputChannel = CoffeeMessageProcessor.cfFilterToMcFilter,outputChannel = CoffeeMessageProcessor.mcFilterToMc )
     public CoffeeMessage filterMessage(Message<CoffeeMessage> coffeeMsg){
-        System.out.println("222222222"+coffeeMsg.getPayload().id+"  "+coffeeMsg.getPayload().message);
+        System.out.println("coffeeMsg: "+coffeeMsg.getPayload().id+"  "+coffeeMsg.getPayload().message);
         CoffeeMessage coffeeMessage = coffeeMsg.getPayload();
         return coffeeMessage;
     }

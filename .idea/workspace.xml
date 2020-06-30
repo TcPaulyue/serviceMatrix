@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="" />
+    <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/personservice/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/coffeemachine2service/target/" />
     <ignored path="$PROJECT_DIR$/personservice/target/" />
     <ignored path="$PROJECT_DIR$/coffeemachine1service/target/" />
+    <ignored path="$PROJECT_DIR$/volunteerservice/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,20 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,20 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="24" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="234">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,55 +79,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java">
+        <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerserviceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="98" selection-start-line="32" selection-start-column="98" selection-end-line="32" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,11 +99,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="-80">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -146,6 +153,9 @@
       <dir>$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -162,22 +172,30 @@
         <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" />
         <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java" />
-        <option value="$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java" />
         <option value="$PROJECT_DIR$/coffeemachine1service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/coffeemachine2service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" />
         <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java" />
         <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java" />
-        <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" />
         <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" />
+        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" />
+        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/pom.xml" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessage.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMachineMessage.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessageProcessor.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerMessage.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerService.java" />
+        <option value="$PROJECT_DIR$/volunteerservice/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
+        <option value="$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java" />
+        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" />
+        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
       </list>
     </option>
   </component>
@@ -192,6 +210,9 @@
     <option name="y" value="23" />
     <option name="width" value="2048" />
     <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -243,7 +264,42 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine1service" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -251,32 +307,25 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine1service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -284,59 +333,16 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeemachine2service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -354,6 +360,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
@@ -367,8 +374,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3226103" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -409,6 +416,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VolunteerserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="volunteerservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servicematrix.volunteerservice.VolunteerserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -420,12 +434,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593407055425</updated>
-      <workItem from="1593407056664" duration="17101000" />
+      <workItem from="1593407056664" duration="21291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17101000" />
+    <option name="totallyTimeSpent" value="21291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,17 +452,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3304904" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.4978678" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.4360341" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
@@ -483,15 +498,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java</url>
-          <line>22</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java</url>
-          <line>21</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -501,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -535,34 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -577,54 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,64 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="98" selection-start-line="32" selection-start-column="98" selection-end-line="32" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -730,10 +614,215 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,7 +879,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>personservice</last-edited>
+          <last-edited>volunteerservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -25,6 +25,10 @@ public interface CoffeeMessagePublisher {
 
     String cfFilterToCf = "cfFilterToCf";
 
+    String cfFilterToVolunteer = "cfFilterToVolunteer";
+
+    String volunteerToCfFilter = "volunteerToCfFilter";
+
     @Output(cfToCfFilter)
     MessageChannel coffeePublish();
 
@@ -37,7 +41,11 @@ public interface CoffeeMessagePublisher {
     @Input(cfFilterToCf)
     SubscribableChannel machineConsume();
 
+    @Output(cfFilterToVolunteer)
+    MessageChannel coffeeToVolunteer();
 
+    @Input(volunteerToCfFilter)
+    SubscribableChannel volunteerToCoffee();
 
 
 
