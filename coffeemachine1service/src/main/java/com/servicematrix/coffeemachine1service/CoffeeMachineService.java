@@ -20,11 +20,14 @@ public class CoffeeMachineService {
     @StreamListener(value = CoffeeMessageProcessor.mcFilterToMc)
     public void checkCoffeeMessage(Message<CoffeeMessage> coffeeMsg){
         CoffeeMessage coffeeMessage = coffeeMsg.getPayload();
+        System.out.println("===============coffeeMachine1 get coffeeMsg================");
         System.out.println(coffeeMessage.id+"  "+coffeeMessage.message);
 
         CoffeeMachineMessage coffeeMachineMessage = new CoffeeMachineMessage();
         coffeeMachineMessage.coffeeMachineId="coffeeMachine_1";
         coffeeMachineMessage.status="idleState";
+        System.out.println("===============coffeeMachine1 send machine msg==============");
+        System.out.println(coffeeMachineMessage.coffeeMachineId+"   "+coffeeMachineMessage.status);
         coffeeMessageProcessor.coffeeMachineMessageProducer().send(message(coffeeMachineMessage));
 
     }

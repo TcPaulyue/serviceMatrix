@@ -9,6 +9,8 @@ import org.springframework.integration.support.MessageBuilder;
 import org.springframework.messaging.Message;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
+import javax.annotation.PostConstruct;
+
 
 @EnableBinding(CoffeeMessagePublisher.class)
 public class PersonService extends QuartzJobBean {
@@ -27,8 +29,8 @@ public class PersonService extends QuartzJobBean {
 
     public void orderCoffeeService(){
         CoffeeMessage coffeeMessage = new CoffeeMessage();
-        coffeeMessage.id = "personservice_orderCoffee_1";
-        coffeeMessage.message= "a cup of latte.";
+        coffeeMessage.id = "personservice_orderCoffee";
+        coffeeMessage.message= "I need a cup of latte.";
         Message<CoffeeMessage> msg = MessageBuilder.withPayload(coffeeMessage)
                 .setHeader("personService","orderCoffee")
                 .build();

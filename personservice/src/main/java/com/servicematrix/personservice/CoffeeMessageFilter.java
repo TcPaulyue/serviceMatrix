@@ -26,6 +26,7 @@ public class CoffeeMessageFilter {
 
     @Transformer(inputChannel = CoffeeMessagePublisher.cfToCfFilter,outputChannel = CoffeeMessagePublisher.cfFilterToMcFilter)
     public CoffeeMessage filterCoffeeMessage(Message<CoffeeMessage> coffeeMsg){
+        System.out.println("===============filter of personService==============");
         System.out.println(coffeeMsg.getPayload().id+"  "+coffeeMsg.getPayload().message);
         return coffeeMsg.getPayload();
     }

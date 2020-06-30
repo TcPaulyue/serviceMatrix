@@ -12,6 +12,7 @@ public class CoffeeMachineFilter {
 
     @Transformer(inputChannel = CoffeeMessageProcessor.cfFilterToMcFilter,outputChannel = CoffeeMessageProcessor.mcFilterToMc )
     public CoffeeMessage filterMessage(Message<CoffeeMessage> coffeeMsg){
+        System.out.println("==================filter of machine1======================");
         System.out.println("coffeeMsg: "+coffeeMsg.getPayload().id+"  "+coffeeMsg.getPayload().message);
         CoffeeMessage coffeeMessage = coffeeMsg.getPayload();
         return coffeeMessage;
@@ -19,9 +20,11 @@ public class CoffeeMachineFilter {
 
     @Transformer(inputChannel = CoffeeMessageProcessor.mcToMcFilter,outputChannel = CoffeeMessageProcessor.mcFilterToCfFilter)
     public CoffeeMachineMessage filterCoffeeMachineMessage(Message<CoffeeMachineMessage> coffeeMachineMsg){
-        System.out.println("coffeeMachineMsg: "+coffeeMachineMsg.getPayload().coffeeMachineId+"   "+coffeeMachineMsg.getPayload().status);
+        System.out.println("==================filter of machine1======================");
         CoffeeMachineMessage coffeeMachineMessage = coffeeMachineMsg.getPayload();
         coffeeMachineMessage.distance = 100.00;
+        System.out.println("coffeeMachineMsg: "+coffeeMachineMsg.getPayload().coffeeMachineId+"   "+coffeeMachineMsg.getPayload().status
+        +"    "+coffeeMachineMessage.distance);
         return coffeeMachineMessage;
     }
 }
