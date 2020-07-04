@@ -7,39 +7,38 @@ import org.springframework.messaging.SubscribableChannel;
 
 public interface CoffeeMessagePublisher {
 
-//    String COFFEECHANNEL1 = "personToCoffeeMc";
-//    String COFFEECHANNEL2 = "coffeeMCToPerson";
-//
-//    @Output(COFFEECHANNEL1)
-//    MessageChannel coffeePublish();
-//
-//    @Input(COFFEECHANNEL2)
-//    SubscribableChannel coffeeMachineMessageConsumer();
-
 
     String cfToCfFilter = "cfToCfFilter";
 
-    String cfFilterToMcFilter = "cfFilterToMcFilter";
-
-    String mcFilterToCfFilter = "mcFilterToCfFilter";
-
     String cfFilterToCf = "cfFilterToCf";
+
+
+
+
+    String personPublisher = "personPublisher";
+
+    String personConsumer = "personConsumer";
 
     String cfFilterToVolunteer = "cfFilterToVolunteer";
 
     String volunteerToCfFilter = "volunteerToCfFilter";
 
+    @Input(cfFilterToCf)
+    SubscribableChannel machineConsume();
+
+
     @Output(cfToCfFilter)
     MessageChannel coffeePublish();
 
-    @Output(cfFilterToMcFilter)
+    @Output(personPublisher)
     MessageChannel coffeeFilter();
 
-    @Input(mcFilterToCfFilter)
+    @Input(personConsumer)
     SubscribableChannel machineFilter();
 
-    @Input(cfFilterToCf)
-    SubscribableChannel machineConsume();
+
+
+
 
     @Output(cfFilterToVolunteer)
     MessageChannel coffeeToVolunteer();

@@ -1,6 +1,4 @@
-package com.servicematrix.coffeemachine1service;
-
-
+package com.servicematrix.messagecenter.domain;
 
 public class CoffeeMachineMessage {
     public String coffeeMachineId;
@@ -8,4 +6,3 @@ public class CoffeeMachineMessage {
     public Double distance;
 
 }
-

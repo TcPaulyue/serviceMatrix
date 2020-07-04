@@ -1,6 +1,7 @@
 package com.servicematrix.personservice;
 
 
+
 public class CoffeeMachineMessage {
     private String coffeeMachineId;
     public String status;

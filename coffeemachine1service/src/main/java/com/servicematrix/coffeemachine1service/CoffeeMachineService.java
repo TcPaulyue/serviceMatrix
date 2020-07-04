@@ -33,6 +33,8 @@ public class CoffeeMachineService {
     }
 
     private static final <T> Message<T> message(T val) {
-        return MessageBuilder.withPayload(val).build();
+        return MessageBuilder.withPayload(val)
+                .setHeader("destination","personConsumer")
+                .build();
     }
 }

@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="volunteerservice" />
-        <module name="coffeemachine1service" />
+        <module name="messagecenter" />
         <module name="personservice" />
+        <module name="coffeemachine1service" />
+        <module name="volunteerservice" />
         <module name="coffeemachine2service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coffeemachine1service" target="11" />
       <module name="coffeemachine2service" target="11" />
+      <module name="messagecenter" target="11" />
       <module name="personservice" target="11" />
       <module name="volunteerservice" target="11" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="coffeemachine1service" options="-parameters" />
       <module name="coffeemachine2service" options="-parameters" />
+      <module name="messagecenter" options="-parameters" />
       <module name="personservice" options="-parameters" />
       <module name="volunteerservice" options="-parameters" />
     </option>
