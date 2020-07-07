@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/coffeemachine1service/pom.xml" />
         <option value="$PROJECT_DIR$/volunteerservice/pom.xml" />
         <option value="$PROJECT_DIR$/messagecenter/pom.xml" />
+        <option value="$PROJECT_DIR$/coffeemachine1filter/pom.xml" />
+        <option value="$PROJECT_DIR$/coffeemachine2filter/pom.xml" />
+        <option value="$PROJECT_DIR$/personfilter/pom.xml" />
       </list>
     </option>
   </component>

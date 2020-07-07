@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/coffeemachine1filter/coffeemachine1filter.iml" filepath="$PROJECT_DIR$/coffeemachine1filter/coffeemachine1filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/coffeemachine1service/coffeemachine1service.iml" filepath="$PROJECT_DIR$/coffeemachine1service/coffeemachine1service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coffeemachine2filter/coffeemachine2filter.iml" filepath="$PROJECT_DIR$/coffeemachine2filter/coffeemachine2filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" filepath="$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" />
       <module fileurl="file://$PROJECT_DIR$/messagecenter/messagecenter.iml" filepath="$PROJECT_DIR$/messagecenter/messagecenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personfilter/personfilter.iml" filepath="$PROJECT_DIR$/personfilter/personfilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/personservice/personservice.iml" filepath="$PROJECT_DIR$/personservice/personservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/serviceMatrix.iml" filepath="$PROJECT_DIR$/.idea/serviceMatrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/volunteerservice/volunteerservice.iml" filepath="$PROJECT_DIR$/volunteerservice/volunteerservice.iml" />

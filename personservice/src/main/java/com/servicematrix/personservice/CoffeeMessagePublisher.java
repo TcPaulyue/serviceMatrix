@@ -14,10 +14,10 @@ public interface CoffeeMessagePublisher {
 
 
 
-
-    String personPublisher = "personPublisher";
-
-    String personConsumer = "personConsumer";
+//
+//    String personPublisher = "personPublisher";
+//
+//    String personConsumer = "personConsumer";
 
     String cfFilterToVolunteer = "cfFilterToVolunteer";
 
@@ -30,11 +30,11 @@ public interface CoffeeMessagePublisher {
     @Output(cfToCfFilter)
     MessageChannel coffeePublish();
 
-    @Output(personPublisher)
-    MessageChannel coffeeFilter();
-
-    @Input(personConsumer)
-    SubscribableChannel machineFilter();
+//    @Output(personPublisher)
+//    MessageChannel coffeeFilter();
+//
+//    @Input(personConsumer)
+//    SubscribableChannel machineFilter();
 
 
 

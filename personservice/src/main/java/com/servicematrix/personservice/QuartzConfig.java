@@ -20,7 +20,7 @@ public class QuartzConfig {
                 .withIdentity("QuartzTask")
                 .withSchedule(simpleSchedule()
                 .withIntervalInSeconds(10)
-                .withRepeatCount(2))
+                .withRepeatCount(5))
                 //.withSchedule()
 //                .withSchedule(CronScheduleBuilder.cronSchedule("*/5 * * * * ?"))
 //                .withSchedule(CronScheduleBuilder.cronSchedule("*/10 * * * * ?"))

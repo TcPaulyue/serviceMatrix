@@ -10,22 +10,22 @@ import org.springframework.stereotype.Component;
 public interface CoffeeMessageProcessor {
 
 
-    String coffeeMachineConsumer = "coffeeMachineConsumer";
-
-    String coffeeMachinePublisher = "coffeeMachinePublisher";
+//    String coffeeMachineConsumer = "coffeeMachineConsumer";
+//
+//    String coffeeMachinePublisher = "coffeeMachinePublisher";
 
 
     String mcFilterToMc = "mcFilterToMc2";
 
     String mcToMcFilter = "mc2ToMcFilter";
 
-    @Input(coffeeMachineConsumer)
-    SubscribableChannel coffeeFilter();
-
-
-    @Output(coffeeMachinePublisher)
-    MessageChannel coffeeMachineMessageFilter();
-
+//    @Input(coffeeMachineConsumer)
+//    SubscribableChannel coffeeFilter();
+//
+//
+//    @Output(coffeeMachinePublisher)
+//    MessageChannel coffeeMachineMessageFilter();
+//
 
 
     @Input(mcFilterToMc)

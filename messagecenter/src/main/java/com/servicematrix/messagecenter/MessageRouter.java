@@ -36,6 +36,7 @@ public class MessageRouter {
     public void checkPersonMessage(Message<CoffeeMessage> coffeeMsg){
         String destination = Objects.requireNonNull(coffeeMsg.getHeaders().get("destination")).toString();
         if(destination.equals(MessageChannelOutput.coffeeMachineConsumer)){
+            System.out.println("========="+coffeeMsg.getPayload().id+"  "+coffeeMsg.getPayload().message);
         //    this.coffeeMachineScheduler(coffeeMsg.getPayload());
             messageChannelOutput.sendCoffeeMachineMessage().send(coffeeMsg);
         }
@@ -69,7 +70,6 @@ public class MessageRouter {
             if(key.contains("coffeeMachine")){
                 if(coffeeMachineMessage.distance<distance&&coffeeMachineMessage.status.equals("idleState"))
                     coffeeMachineId.set(key);
-
             }
         });
         return coffeeMachineId.get();
