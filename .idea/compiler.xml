@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="volunteerservice" />
         <module name="coffeemachine1filter" />
+        <module name="personproxy" />
         <module name="coffeemachine1service" />
+        <module name="coffeemachine2service" />
         <module name="messagecenter" />
         <module name="personservice" />
-        <module name="personfilter" />
+        <module name="dynamicproxy" />
         <module name="coffeemachine2filter" />
-        <module name="coffeemachine2service" />
+        <module name="personfilter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,8 +23,10 @@
       <module name="coffeemachine1service" target="11" />
       <module name="coffeemachine2filter" target="11" />
       <module name="coffeemachine2service" target="11" />
+      <module name="dynamicproxy" target="6" />
       <module name="messagecenter" target="11" />
       <module name="personfilter" target="11" />
+      <module name="personproxy" target="11" />
       <module name="personservice" target="11" />
       <module name="volunteerservice" target="11" />
     </bytecodeTargetLevel>
@@ -33,8 +37,10 @@
       <module name="coffeemachine1service" options="-parameters" />
       <module name="coffeemachine2filter" options="-parameters" />
       <module name="coffeemachine2service" options="-parameters" />
+      <module name="dynamicproxy" options="" />
       <module name="messagecenter" options="-parameters" />
       <module name="personfilter" options="-parameters" />
+      <module name="personproxy" options="-parameters" />
       <module name="personservice" options="-parameters" />
       <module name="volunteerservice" options="-parameters" />
     </option>

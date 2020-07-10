@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/coffeemachine1filter/pom.xml" />
         <option value="$PROJECT_DIR$/coffeemachine2filter/pom.xml" />
         <option value="$PROJECT_DIR$/personfilter/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/personproxy/pom.xml" />
       </list>
     </option>
   </component>
