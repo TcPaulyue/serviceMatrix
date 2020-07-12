@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,12 +11,11 @@
         <module name="coffeemachine1filter" />
         <module name="personproxy" />
         <module name="coffeemachine1service" />
-        <module name="coffeemachine2service" />
         <module name="messagecenter" />
-        <module name="personservice" />
+        <module name="personfilter" />
         <module name="dynamicproxy" />
         <module name="coffeemachine2filter" />
-        <module name="personfilter" />
+        <module name="coffeemachine2service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

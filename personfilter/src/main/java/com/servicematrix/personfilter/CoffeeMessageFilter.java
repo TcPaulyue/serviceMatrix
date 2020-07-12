@@ -39,9 +39,20 @@ public class CoffeeMessageFilter {
 //    }
 
     @StreamListener(CoffeeMessagePublisher.cfToCfFilter)
-    public void filterCoffeeMessage(Message<CoffeeMessage> coffeeMsg){
+    public void filterCoffeeMessage(Message<?> coffeeMsg){
+
+        if(coffeeMsg.getHeaders().get("destination").equals("coffeeMachineConsumer")){
+            CoffeeMessage coffeeMessage = (CoffeeMessage)coffeeMsg.getPayload();
+            System.out.println(coffeeMessage.id+"  "+coffeeMessage.message);
+        }
+        else if(coffeeMsg.getHeaders().get("destination").equals("messageCenter")){
+            PersonInfo personInfo = (PersonInfo)coffeeMsg.getPayload();
+            System.out.println(personInfo.name+" "+personInfo.Xloc+"  "+personInfo.Yloc);
+        }
+        System.out.println("11111");
         coffeeMessagePublisher.coffeeFilter().send(coffeeMsg);
     }
+
 
     @StreamListener(CoffeeMessagePublisher.personConsumer)
     public void  filterCoffeeMachineMessage(Message<CoffeeMachineMessage> coffeeMachineMsg){

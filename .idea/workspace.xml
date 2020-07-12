@@ -3,10 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_7_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/DaoProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxy/target/classes/DaoProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personservice/src/test/java/com/servicematrix/personservice/PersonserviceApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/coffeemachine2service/target/" />
     <ignored path="$PROJECT_DIR$/personservice/target/" />
@@ -29,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="115">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +75,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java">
+        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +137,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="72">
+              <caret line="6" selection-start-line="6" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,71 +158,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="175">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java">
+        <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -156,9 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/messagecenter/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/CoffeeMachineMessage.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" />
         <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessagecenterApplication.java" />
         <option value="$PROJECT_DIR$/coffeemachine1filter/pom.xml" />
         <option value="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMessage.java" />
@@ -184,7 +228,6 @@
         <option value="$PROJECT_DIR$/personfilter/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
         <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" />
         <option value="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java" />
@@ -198,15 +241,19 @@
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonController.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonLocation.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/personproxy/pom.xml" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" />
+        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" />
+        <option value="$PROJECT_DIR$/personproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java" />
+        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" />
+        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" />
+        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -230,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +287,41 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="personfilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
               <item name="personproxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,7 +360,9 @@
               <item name="personproxy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
@@ -304,54 +387,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="personproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -519,7 +560,8 @@
       <workItem from="1594000213460" duration="1586000" />
       <workItem from="1594002993611" duration="1043000" />
       <workItem from="1594005379658" duration="8132000" />
-      <workItem from="1594198775046" duration="7879000" />
+      <workItem from="1594198775046" duration="14142000" />
+      <workItem from="1594537800779" duration="5766000" />
     </task>
     <servers />
   </component>
@@ -544,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57971000" />
+    <option name="totallyTimeSpent" value="70000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,17 +599,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28507015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28857717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.3379531" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.28464818" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.42750534" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.47654584" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" weight="0.32942432" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
@@ -632,22 +675,10 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java</url>
@@ -661,22 +692,50 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XtextAutoBuilderState">
     <installedLanguages>xtend;xtext</installedLanguages>
-    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB38gAAAAsADHBlcnNvbmZpbHRlcgAAAAAAEHZvbHVudGVlcnNlcnZpY2UAAAAAABVjb2ZmZWVtYWNoaW5lMnNlcnZpY2UAAAAAABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2UAAAAAABRjb2ZmZWVtYWNoaW5lMWZpbHRlcgAAAAAADW1lc3NhZ2VjZW50ZXIAAAAAAA1zZXJ2aWNlTWF0cml4AAAAAAAMZHluYW1pY3Byb3h5AAAAAAALcGVyc29ucHJveHkAAAAAABRjb2ZmZWVtYWNoaW5lMmZpbHRlcgAAAAAADXBlcnNvbnNlcnZpY2UAAAAAeA==</index>
-    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAALdAAMcGVyc29uZmlsdGVyc3IAL29yZy5lY2xpcHNlLnh0ZXh0LmJ1aWxkLlNvdXJjZTJHZW5lcmF0ZWRNYXBwaW5nYMHNRu2RhsoMAAB4cHcEAAAAAHh0ABB2b2x1bnRlZXJzZXJ2aWNlc3EAfgADdwQAAAAAeHQAFWNvZmZlZW1hY2hpbmUyc2VydmljZXNxAH4AA3cEAAAAAHh0ABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2VzcQB+AAN3BAAAAAB4dAAUY29mZmVlbWFjaGluZTFmaWx0ZXJzcQB+AAN3BAAAAAB4dAANbWVzc2FnZWNlbnRlcnNxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AAtwZXJzb25wcm94eXNxAH4AA3cEAAAAAHh0ABRjb2ZmZWVtYWNoaW5lMmZpbHRlcnNxAH4AA3cEAAAAAHh0AA1wZXJzb25zZXJ2aWNlc3EAfgADdwQAAAAAeHg=</module2generated>
+    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB33wAAAAoADHBlcnNvbmZpbHRlcgAAAAAAEHZvbHVudGVlcnNlcnZpY2UAAAAAABVjb2ZmZWVtYWNoaW5lMnNlcnZpY2UAAAAAABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2UAAAAAABRjb2ZmZWVtYWNoaW5lMWZpbHRlcgAAAAAADW1lc3NhZ2VjZW50ZXIAAAAAAA1zZXJ2aWNlTWF0cml4AAAAAAAMZHluYW1pY3Byb3h5AAAAAAALcGVyc29ucHJveHkAAAAAABRjb2ZmZWVtYWNoaW5lMmZpbHRlcgAAAAB4</index>
+    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAKdAAMcGVyc29uZmlsdGVyc3IAL29yZy5lY2xpcHNlLnh0ZXh0LmJ1aWxkLlNvdXJjZTJHZW5lcmF0ZWRNYXBwaW5nYMHNRu2RhsoMAAB4cHcEAAAAAHh0ABB2b2x1bnRlZXJzZXJ2aWNlc3EAfgADdwQAAAAAeHQAFWNvZmZlZW1hY2hpbmUyc2VydmljZXNxAH4AA3cEAAAAAHh0ABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2VzcQB+AAN3BAAAAAB4dAAUY29mZmVlbWFjaGluZTFmaWx0ZXJzcQB+AAN3BAAAAAB4dAANbWVzc2FnZWNlbnRlcnNxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AAtwZXJzb25wcm94eXNxAH4AA3cEAAAAAHh0ABRjb2ZmZWVtYWNoaW5lMmZpbHRlcnNxAH4AA3cEAAAAAHh4</module2generated>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeemachine2filter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -712,13 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMachineMessage.java" />
     <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMachineMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -749,23 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
     <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -821,16 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/messagecenter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -865,19 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#45#46#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeemachine2service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-298" />
@@ -890,40 +904,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/DaoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="37" selection-start-line="37" selection-end-line="44" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -938,30 +920,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessage.java" />
     <entry file="file://$PROJECT_DIR$/personproxy/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -969,89 +929,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java" />
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" />
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
+    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" />
+    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#45#46#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/DaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" />
     <entry file="file://$PROJECT_DIR$/personproxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="612">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
+    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="864">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1060,25 +1024,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="171">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
