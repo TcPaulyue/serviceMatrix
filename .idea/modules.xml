@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/coffeemachine2filter/coffeemachine2filter.iml" filepath="$PROJECT_DIR$/coffeemachine2filter/coffeemachine2filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" filepath="$PROJECT_DIR$/coffeemachine2service/coffeemachine2service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicproxy/dynamicproxy.iml" filepath="$PROJECT_DIR$/dynamicproxy/dynamicproxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javassist/javassist.iml" filepath="$PROJECT_DIR$/javassist/javassist.iml" />
       <module fileurl="file://$PROJECT_DIR$/messagecenter/messagecenter.iml" filepath="$PROJECT_DIR$/messagecenter/messagecenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/personfilter/personfilter.iml" filepath="$PROJECT_DIR$/personfilter/personfilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/personproxy/personproxy.iml" filepath="$PROJECT_DIR$/personproxy/personproxy.iml" />

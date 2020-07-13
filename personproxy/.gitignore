@@ -1,7 +1,7 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
+!**/src/com.servicematrix.javassist.UpdatePerson/**/target/
 !**/src/test/**/target/
 
 ### STS ###
@@ -26,7 +26,7 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
+!**/src/com.servicematrix.javassist.UpdatePerson/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###

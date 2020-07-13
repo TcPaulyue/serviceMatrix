@@ -11,11 +11,12 @@
         <module name="coffeemachine1filter" />
         <module name="personproxy" />
         <module name="coffeemachine1service" />
+        <module name="coffeemachine2service" />
         <module name="messagecenter" />
-        <module name="personfilter" />
+        <module name="javassist" />
         <module name="dynamicproxy" />
         <module name="coffeemachine2filter" />
-        <module name="coffeemachine2service" />
+        <module name="personfilter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="coffeemachine2filter" target="11" />
       <module name="coffeemachine2service" target="11" />
       <module name="dynamicproxy" target="6" />
+      <module name="javassist" target="1.5" />
       <module name="messagecenter" target="11" />
       <module name="personfilter" target="11" />
       <module name="personproxy" target="11" />

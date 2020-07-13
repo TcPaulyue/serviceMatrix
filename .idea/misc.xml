@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/personfilter/pom.xml" />
         <option value="$PROJECT_DIR$/dynamicproxy/pom.xml" />
         <option value="$PROJECT_DIR$/personproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/javassist/pom.xml" />
       </list>
     </option>
   </component>
