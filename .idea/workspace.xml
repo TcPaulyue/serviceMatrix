@@ -2,20 +2,235 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/BuyCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/UpdatePerson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_3_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_3_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_test_support_3_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1filter/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2filter/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine2service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine2service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messagecenter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personfilter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/personfilter/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/personproxy/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volunteerservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/volunteerservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/Coffeemachine1filterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/Coffeemachine1filterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1filter/src/test/java/com/servicematrix/coffeemachine1filter/Coffeemachine1filterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/src/test/java/com/servicematrix/coffeemachine1filter/Coffeemachine1filterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1service/src/test/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/src/test/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1filter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine1service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/Coffeemachine2filterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/Coffeemachine2filterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2filter/src/test/java/com/servicematrix/coffeemachine2filter/Coffeemachine2filterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/src/test/java/com/servicematrix/coffeemachine2filter/Coffeemachine2filterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2filter/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine2service/src/test/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/src/test/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/dynamicproxy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/src/main/java/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/src/main/java/DaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/DaoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/JdkProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/target/classes/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/DaoProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/target/classes/DaoProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo$Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo$If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo$Original.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicproxy/target/classes/JdkProxyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/javassist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/BuyCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/CoffeeMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/CoffeeMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/Person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/Person/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/Person/PersonI.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/Person/PersonI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/javassist/target/classes/com/servicematrix/javassist/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javassist/target/classes/com/servicematrix/javassist/UpdatePerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/coffeemachine2service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessagecenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/MessagecenterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/channel/MessageChannelInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/channel/MessageChannelInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/channel/MessageChannelOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/channel/MessageChannelOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/domain/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/domain/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/domain/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/domain/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/test/java/com/servicematrix/messagecenter/MessagecenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/src/test/java/com/servicematrix/messagecenter/MessagecenterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/messagecenter/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMachineMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMachineMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonfilterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/PersonfilterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personfilter/src/test/java/com/servicematrix/personfilter/PersonfilterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/src/test/java/com/servicematrix/personfilter/PersonfilterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/personfilter/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicproxies/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/java/com/servicematrix/volunteerservice/CoffeeMessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/java/com/servicematrix/volunteerservice/VolunteerserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volunteerservice/src/test/java/com/servicematrix/volunteerservice/VolunteerserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1/volunteerservice/src/test/java/com/servicematrix/volunteerservice/VolunteerserviceApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/coffeemachine2service/target/" />
     <ignored path="$PROJECT_DIR$/personservice/target/" />
@@ -28,6 +243,10 @@
     <ignored path="$PROJECT_DIR$/dynamicproxy/target/" />
     <ignored path="$PROJECT_DIR$/personproxy/target/" />
     <ignored path="$PROJECT_DIR$/javassist/target/" />
+    <ignored path="$PROJECT_DIR$/personproxies/target/" />
+    <ignored path="$PROJECT_DIR$/dynamicproxies/javassist/target/" />
+    <ignored path="$PROJECT_DIR$/dynamicproxies/dynamicproxy/target/" />
+    <ignored path="$PROJECT_DIR$/coffeemachine1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +259,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxy/pom.xml">
+        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="1152">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/pom.xml">
+        <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="51" column="75" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="248">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,84 +328,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java">
+        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="750">
+              <caret line="86" selection-start-line="86" selection-end-line="87" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/CoffeeMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="344">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/PersonService.java">
+        <entry file="file://$PROJECT_DIR$/personproxies/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="47" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
+        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/ConnectionChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="22" />
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,9 +388,11 @@
     <findStrings>
       <find>coffeeFilterToCoffeeMachineFilter</find>
       <find>mc</find>
+      <find>defineClass</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice</dir>
+      <dir>$PROJECT_DIR$/personproxies/target/classes</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -180,33 +401,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineMessage.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMessageProcessor.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMessageProcessor.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineFilter.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2filter/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/coffeemachine2service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/personfilter/pom.xml" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessage.java" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessagePublisher.java" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMachineMessage.java" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
-        <option value="$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
-        <option value="$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" />
-        <option value="$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java" />
-        <option value="$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineFilter.java" />
-        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/Jdkproxydemo.java" />
-        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/Dao.java" />
-        <option value="$PROJECT_DIR$/dynamicproxy/pom.xml" />
-        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/DaoProxy.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessage.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonController.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonLocation.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java" />
@@ -218,19 +412,46 @@
         <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" />
         <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" />
-        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/PersonInfo.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/main.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/UpdatePerson.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/CoffeeMessage.java" />
-        <option value="$PROJECT_DIR$/javassist/pom.xml" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/PersonService.java" />
+        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" />
+        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/OrderCoffeeInterface.java" />
+        <option value="$PROJECT_DIR$/javassist/pom.xml" />
+        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/RabbitMqConfig.java" />
         <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java" />
+        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Consumer.java" />
+        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java" />
+        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/ConnectionChannel.java" />
+        <option value="$PROJECT_DIR$/personproxies/pom.xml" />
+        <option value="$PROJECT_DIR$/messagecenter/pom.xml" />
+        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/messageHandler.java" />
+        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/ConnectionChannel.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/LocalClass.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/ManageClassLoader.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Message.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/DynamicClassLoader.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Person.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Main.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MessageImpl.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/pom.xml" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/coffeemachine.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/Coffeemachine.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java" />
+        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java" />
       </list>
     </option>
   </component>
@@ -265,60 +486,25 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeemachine1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeemachine1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javassist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeemachine1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeemachine1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -326,21 +512,81 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeemachine1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="servicematrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,10 +613,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3226103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamicproxies" />
+      <recent name="$PROJECT_DIR$/v1" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -390,20 +643,13 @@
     </option>
     <option name="contentProportion" value="0.22806123" />
   </component>
-  <component name="RunManager" selected="Application.UpdatePerson">
-    <configuration name="JdkProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JdkProxyDemo" />
-      <module name="dynamicproxy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.servicematrix.javassist.Person.Person" />
-      <module name="javassist" />
+  <component name="RunManager" selected="Application.PersonProxy">
+    <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.CoffeeMachine" />
+      <module name="coffeemachine1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.servicematrix.javassist.Person.*" />
+          <option name="PATTERN" value="com.servicematrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +657,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatePerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.servicematrix.javassist.UpdatePerson" />
-      <module name="javassist" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.person.dynamicLoad.Main" />
+      <module name="personproxies" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.servicematrix.javassist.*" />
+          <option name="PATTERN" value="com.servicematrix.person.dynamicLoad.DynamicClassLoader" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,18 +670,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonproxyApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="personproxy" />
+    <configuration name="MessageHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.messagecenter.MessageHandler" />
+      <module name="messagecenter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.servicematrix.personproxy.domain.*" />
+          <option name="PATTERN" value="com.servicematrix.messagecenter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.servicematrix.personproxy" />
-      <option name="MAIN_CLASS_NAME" value="com.servicematrix.personproxy.PersonproxyApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.person.PersonProxy" />
+      <module name="personproxies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.servicematrix.person.dynamicLoad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.person.Receiver" />
+      <module name="personproxies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.servicematrix.person.dynamicLoad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -512,10 +781,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UpdatePerson" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.JdkProxyDemo" />
-        <item itemvalue="JUnit.PersonproxyApplicationTests.contextLoads" />
+        <item itemvalue="Application.PersonProxy" />
+        <item itemvalue="Application.CoffeeMachine" />
+        <item itemvalue="Application.MessageHandler" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Receiver" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +813,7 @@
       <workItem from="1594005379658" duration="8132000" />
       <workItem from="1594198775046" duration="14142000" />
       <workItem from="1594537800779" duration="5766000" />
-      <workItem from="1594552672214" duration="5908000" />
+      <workItem from="1594552672214" duration="30798000" />
     </task>
     <servers />
   </component>
@@ -568,7 +838,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75908000" />
+    <option name="totallyTimeSpent" value="100798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,6 +851,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29208416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -589,20 +860,20 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.62366736" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.2782516" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.47654584" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.35074627" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" weight="0.32942432" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32942432" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.41471216" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942432" />
       <window_info anchor="bottom" id="ANTLR Preview" order="9" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.3848614" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.2793177" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.48507464" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.24413647" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.32942432" />
@@ -626,7 +897,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java</url>
+          <url>file://$PROJECT_DIR$/v1/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -638,25 +909,25 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java</url>
+          <url>file://$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java</url>
+          <url>file://$PROJECT_DIR$/v1/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageRouter.java</url>
+          <url>file://$PROJECT_DIR$/v1/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageRouter.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java</url>
+          <url>file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="24" />
@@ -674,46 +945,46 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
+          <url>file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
+          <url>file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java</url>
           <line>55</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <url>file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
           <line>43</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <url>file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
           <line>47</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
+          <url>file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java</url>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -725,155 +996,15 @@
   </component>
   <component name="XtextAutoBuilderState">
     <installedLanguages>xtend;xtext</installedLanguages>
-    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB37gAAAAsAEHZvbHVudGVlcnNlcnZpY2UAAAAAAAxwZXJzb25maWx0ZXIAAAAAABVjb2ZmZWVtYWNoaW5lMnNlcnZpY2UAAAAAABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2UAAAAAABRjb2ZmZWVtYWNoaW5lMWZpbHRlcgAAAAAADW1lc3NhZ2VjZW50ZXIAAAAAAA1zZXJ2aWNlTWF0cml4AAAAAAAMZHluYW1pY3Byb3h5AAAAAAALcGVyc29ucHJveHkAAAAAAAlqYXZhc3Npc3QAAAAAABRjb2ZmZWVtYWNoaW5lMmZpbHRlcgAAAAB4</index>
-    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAALdAAQdm9sdW50ZWVyc2VydmljZXNyAC9vcmcuZWNsaXBzZS54dGV4dC5idWlsZC5Tb3VyY2UyR2VuZXJhdGVkTWFwcGluZ2DBzUbtkYbKDAAAeHB3BAAAAAB4dAAMcGVyc29uZmlsdGVyc3EAfgADdwQAAAAAeHQAFWNvZmZlZW1hY2hpbmUyc2VydmljZXNxAH4AA3cEAAAAAHh0ABVjb2ZmZWVtYWNoaW5lMXNlcnZpY2VzcQB+AAN3BAAAAAB4dAAUY29mZmVlbWFjaGluZTFmaWx0ZXJzcQB+AAN3BAAAAAB4dAANbWVzc2FnZWNlbnRlcnNxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AAtwZXJzb25wcm94eXNxAH4AA3cEAAAAAHh0AAlqYXZhc3Npc3RzcQB+AAN3BAAAAAB4dAAUY29mZmVlbWFjaGluZTJmaWx0ZXJzcQB+AAN3BAAAAAB4eA==</module2generated>
+    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB3cgAAAAYADW1lc3NhZ2VjZW50ZXIAAAAAAA1wZXJzb25wcm94aWVzAAAAAAANc2VydmljZU1hdHJpeAAAAAAADGR5bmFtaWNwcm94eQAAAAAADmNvZmZlZW1hY2hpbmUxAAAAAAAJamF2YXNzaXN0AAAAAHg=</index>
+    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAGdAANbWVzc2FnZWNlbnRlcnNyAC9vcmcuZWNsaXBzZS54dGV4dC5idWlsZC5Tb3VyY2UyR2VuZXJhdGVkTWFwcGluZ2DBzUbtkYbKDAAAeHB3BAAAAAB4dAANcGVyc29ucHJveGllc3NxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AA5jb2ZmZWVtYWNoaW5lMXNxAH4AA3cEAAAAAHh0AAlqYXZhc3Npc3RzcQB+AAN3BAAAAAB4eA==</module2generated>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessagePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessageFilter.java" />
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/Coffeemachine1serviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/Coffeemachine1filterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/Coffeemachine2filterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/Coffeemachine2serviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1service/src/main/java/com/servicematrix/coffeemachine1service/CoffeeMachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="36" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2filter/src/main/java/com/servicematrix/coffeemachine2filter/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessagecenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/src/main/java/com/servicematrix/coffeemachine2service/CoffeeMachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine2service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="43" column="101" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessage.java" />
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/VolunteerMessage.java" />
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/QuartzConfig.java" />
-    <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonserviceApplication.java" />
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/CoffeeMessagePublisher.java" />
     <entry file="file://$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice/PersonService.java" />
     <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" />
     <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java" />
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -883,7 +1014,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
@@ -893,7 +1024,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
+    <entry file="file://$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
@@ -903,14 +1034,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java">
+    <entry file="file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
+    <entry file="file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="49" column="49" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="49" />
@@ -920,14 +1051,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/Dao.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -940,7 +1071,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/DaoProxy.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/DaoProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -950,21 +1081,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -974,7 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="37" column="1" selection-start-line="7" selection-end-line="37" selection-end-column="1" />
@@ -984,17 +1101,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="60" column="5" selection-start-line="49" selection-start-column="2" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" selection-start-line="12" selection-end-line="22" />
@@ -1004,51 +1111,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java">
+    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/com/servicematrix/javassist/PersonService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/CoffeeMessage.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/OrderCoffeeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="54">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/CoffeeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
@@ -1062,37 +1163,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/ConnectionChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="522">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/com/servicematrix/javassist/PersonService.class">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="56">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java">
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="66" column="5" selection-start-line="15" selection-start-column="1" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messagecenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/ManageClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/OrderCoffeeService.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/dynamicLoad/MessageImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/DynamicClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/JdkProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="1016" column="45" lean-forward="true" selection-start-line="1016" selection-start-column="45" selection-end-line="1016" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/ConnectionChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="86" selection-start-line="86" selection-end-line="87" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="51" column="75" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1149,7 +1479,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>volunteerservice</last-edited>
+          <last-edited>coffeemachine1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

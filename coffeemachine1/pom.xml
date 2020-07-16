@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.servicematrix</groupId>
-    <artifactId>messagecenter</artifactId>
+    <artifactId>coffeemachine1</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>com.rabbitmq</groupId>
@@ -14,5 +15,4 @@
             <version>4.0.0</version>
         </dependency>
     </dependencies>
-
 </project>

@@ -16,7 +16,12 @@
         <option value="$PROJECT_DIR$/dynamicproxy/pom.xml" />
         <option value="$PROJECT_DIR$/personproxy/pom.xml" />
         <option value="$PROJECT_DIR$/javassist/pom.xml" />
+        <option value="$PROJECT_DIR$/personproxies/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicproxies/javassist/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicproxies/dynamicproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/coffeemachine1/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="12" project-jdk-type="JavaSDK" />
 </project>
