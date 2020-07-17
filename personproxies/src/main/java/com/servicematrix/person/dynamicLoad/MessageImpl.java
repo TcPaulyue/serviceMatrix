@@ -5,6 +5,6 @@ public class MessageImpl implements Message {
 
     @Override
     public void send() {
-        System.out.println("发送消息bbbbbb");
+        System.out.println("发送消息cccccccc");
     }
 }

@@ -1,7 +1,6 @@
 package com.servicematrix.person;
 
 import com.rabbitmq.client.Channel;
-import com.servicematrix.person.dynamicLoad.DynamicClassLoader;
 import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
@@ -22,11 +21,11 @@ public class PersonProxy {
         MethodInfo buyCoffeeMethodInfo = buyCoffee.getMethodInfo();
 
         //在PersonService中加入BuyCoffee方法
-        ClassFile cf = pool.get("com.servicematrix.person.Person").getClassFile();
+        ClassFile cf = pool.get("com.servicematrix.person.PersonSender").getClassFile();
         cf.addMethod(buyCoffeeMethodInfo);
 
 
-        CtClass cc = pool.get("com.servicematrix.person.Person");
+        CtClass cc = pool.get("com.servicematrix.person.PersonSender");
 
         //修改方法
         CtMethod personFly = cc.getDeclaredMethod("sendMessage");
@@ -40,21 +39,21 @@ public class PersonProxy {
         ctMethod.setBody("{System.out.println(\"oh my god,I can run!!\");}");
         cc.addMethod(ctMethod);
 
-        Person person = (Person) cc.toClass().newInstance();
-        person.setRoutingKey("kern.name");
-        person.updateLocation("chris",1.00,2.00);
+        PersonSender personSender = (PersonSender) cc.toClass().newInstance();
+        personSender.init("messageCenter",1.00,2.00);
+
         System.out.println("=========sendMessage==========");
         String message = "send a message";
-        Method sendMessageMethod = person.getClass().getMethod("sendMessage", String.class);
-        sendMessageMethod.invoke(person,message);
+        Method sendMessageMethod = personSender.getClass().getMethod("sendMessage", String.class);
+        sendMessageMethod.invoke(personSender,message);
 
         //调用 drinkCoffee 方法
         System.out.println("=========personDrinkCoffee=============");
-        Method drinkCoffeeMethod = person.getClass().getMethod("orderCoffee", Channel.class,String.class,String.class
+        Method drinkCoffeeMethod = personSender.getClass().getMethod("orderCoffee", Channel.class,String.class,String.class
                 ,Map.class);
-        drinkCoffeeMethod.invoke(person,person.getChannel(),"cms",person.routingKey,person.getHeaders());
+        drinkCoffeeMethod.invoke(personSender, personSender.getChannel(), personSender.getEXCHANGE_NAME(), personSender.routingKey, personSender.getHeaders());
 
-//        for(Method method:person.getClass().getMethods()){
+//        for(Method method:personSender.getClass().getMethods()){
 //            System.out.println(method.getName());
 //        }
         // cc.writeFile("/Users/tangcong/Desktop/serviceMatrix/javassist/src/main/java/com/servicematrix/javassist");

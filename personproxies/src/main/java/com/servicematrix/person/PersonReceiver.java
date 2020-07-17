@@ -6,30 +6,28 @@ import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
 
-public class Receiver extends ConnectionChannel {
+public class PersonReceiver extends ConnectionChannel{
 
-    private String queueName;
+    private String name;
 
-    /**
-     * Creates a new instance of Receiver
-     *
-     * @throws Exception
-     */
-    public Receiver() throws Exception {
+    public PersonReceiver(String name) throws Exception {
         super();
-        this.queueName = "queue_topic";
+        this.name = name;
     }
 
-    public Receiver( String queueName) throws Exception {
-        super();
-        this.queueName = queueName;
+    public void init() throws IOException {
+        this.queueName = name;
+        this.EXCHANGE_NAME = name;
+
+        //声明一个队列 - 持久化
+        channel.queueDeclare(queueName, true, false, false, null);
+        //设置通道预取计数
+        channel.basicQos(1);
+        this.routingKey = name;
+        channel.exchangeDeclare(EXCHANGE_NAME, "topic", false, false, null);
+        channel.queueBind(queueName, EXCHANGE_NAME, routingKey);
     }
 
-    /**
-     * @Title : getMessage
-     * @Function: 从 交换机 上获取消息
-     * @throws Exception
-     */
     public void getMessage() throws Exception{
 
         //声明一个临时队列，该队列会在使用完比后自动销毁 - 非必需
@@ -42,7 +40,7 @@ public class Receiver extends ConnectionChannel {
         channel.basicQos(1);
 
         //将消息队列绑定到Exchange - 将队列绑定到交换机 - 绑定一个routing key
-        channel.queueBind(queueName, EXCHANGE_NAME, routingKey);
+        channel.queueBind(queueName, name, routingKey);
 
         DefaultConsumer consumer = new DefaultConsumer(channel) {
             @Override
@@ -60,8 +58,8 @@ public class Receiver extends ConnectionChannel {
     }
 
     public static void main(String[] args) throws Exception {
-        Receiver receiver = new Receiver("abc");
-        receiver.getMessage();
+        PersonReceiver personReceiver = new PersonReceiver("xiaoming");
+        personReceiver.init();
+        personReceiver.getMessage();
     }
-
 }

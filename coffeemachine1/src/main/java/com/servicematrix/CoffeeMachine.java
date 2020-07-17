@@ -5,17 +5,38 @@ import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CoffeeMachine extends ConnectionChannel{
-    private String queueName;
 
-    public CoffeeMachine() throws Exception {
+    private String name;
+
+    private Double XLOC;
+
+    private Double YLOC;
+
+    private Map<String,Object> headers = new HashMap<String, Object>();
+
+    public CoffeeMachine(String name,Double XLOC,Double YLOC) throws Exception {
         super();
-        this.queueName = "person_topic";
+        this.name = name;
+        this.XLOC = XLOC;
+        this.YLOC = YLOC;
+
+        headers.put("name",this.name);
+        headers.put("XLOC",this.XLOC);
+        headers.put("YLOC",this.YLOC);
+
+        this.queueName = headers.get("name").toString();
+        this.EXCHANGE_NAME = headers.get("name").toString();
+        this.routingKey = headers.get("name").toString();
         //声明一个队列 - 持久化
         channel.queueDeclare(queueName, true, false, false, null);
         //设置通道预取计数
         channel.basicQos(1);
+
+        channel.exchangeDeclare(EXCHANGE_NAME, "topic", false, false, null);
     }
 
 
@@ -51,8 +72,7 @@ public class CoffeeMachine extends ConnectionChannel{
     }
 
     public static void main(String[] args) throws Exception {
-        CoffeeMachine coffeeMachine = new CoffeeMachine();
-        coffeeMachine.setRoutingKey("machine");
+        CoffeeMachine coffeeMachine = new CoffeeMachine("xiaoming",3.00,4.00);
         coffeeMachine.getMessage();
     }
 }

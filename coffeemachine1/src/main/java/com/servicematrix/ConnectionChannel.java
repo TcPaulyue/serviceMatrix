@@ -8,14 +8,9 @@ public abstract class ConnectionChannel {
     //安装 RabbitMQ 的主机IP
     protected static final String HOST = "127.0.0.1";
 
-    //消息服务请求URL
-//    public static final String CMS_HOST = "http://" + HOST + ":8080";
+    protected String EXCHANGE_NAME;
 
-    // routingKey
-    //   public static final String ROUTING_KEY = "YOU.SELF.KEY";
-
-    protected final static String EXCHANGE_NAME = "CoffeeMachine";
-
+    protected String queueName;
     // 连接
     protected Connection connection;
     // 连接通道
@@ -37,12 +32,6 @@ public abstract class ConnectionChannel {
         // 声明消息通道
         channel = connection.createChannel();
 
-        channel.exchangeDeclare(EXCHANGE_NAME, "topic", false, false, null);
-
-    }
-
-    public void setRoutingKey(String routingKey) {
-        this.routingKey = routingKey;
     }
 
     public Channel getChannel() {
