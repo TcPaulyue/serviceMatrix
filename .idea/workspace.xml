@@ -154,7 +154,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="157">
               <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -637,7 +637,7 @@
       <workItem from="1594005379658" duration="8132000" />
       <workItem from="1594198775046" duration="14142000" />
       <workItem from="1594537800779" duration="5766000" />
-      <workItem from="1594552672214" duration="54438000" />
+      <workItem from="1594552672214" duration="54660000" />
     </task>
     <servers />
   </component>
@@ -662,7 +662,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124438000" />
+    <option name="totallyTimeSpent" value="124660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,7 +675,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29208416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -686,7 +685,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.2782516" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.5053305" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.5053305" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" weight="0.32942432" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
@@ -696,7 +695,7 @@
       <window_info anchor="bottom" id="ANTLR Preview" order="9" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.3848614" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.4445629" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.4445629" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.3251599" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
@@ -1395,7 +1394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="157">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
