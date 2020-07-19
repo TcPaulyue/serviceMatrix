@@ -54,7 +54,7 @@ public class PersonSender extends ConnectionChannel {
     }
 
     public void sendMessage(String body) throws Exception{
-        headers.put("destination", "messageCenter");
+        headers.put("destination", "person");
 
         AMQP.BasicProperties.Builder properties = new AMQP.BasicProperties.Builder();
         properties.headers(headers);

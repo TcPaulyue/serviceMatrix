@@ -8,9 +8,9 @@ import java.io.IOException;
 
 public class MessageHandler extends ConnectionChannel{
 
-    private PersonChannel personChannel;
+    private ServiceChannel personChannel;
 
-
+    private ServiceChannel machineChannel;
 
     public MessageHandler(String name) throws Exception {
         super();
@@ -18,8 +18,8 @@ public class MessageHandler extends ConnectionChannel{
         this.EXCHANGE_NAME = name;
         this.routingKey = name;
         channel.exchangeDeclare(EXCHANGE_NAME, "topic", false, false, null);
-
-        this.personChannel = new PersonChannel("xiaoming");
+        this.personChannel = new ServiceChannel("xiaoming");
+        this.machineChannel = new ServiceChannel("coffeeMachine");
     }
 
     /**
@@ -49,12 +49,22 @@ public class MessageHandler extends ConnectionChannel{
                 String message = new String(body, "UTF-8");
                 System.out.println(" [x] Received '" + message + "'");
                 String destination = properties.getHeaders().get("destination").toString();
-                try {
-                    personChannel.sendMessage(message+"abc");
-                    System.out.println("MessageCenter消息发送成功 -- [ " + destination + " ] - " + message);
-                } catch (Exception e) {
-                    e.printStackTrace();
+                if(destination.equals("CoffeeMachine")){
+                    try {
+                        machineChannel.sendMessage(message+"coffeeMachine");
+                        System.out.println("MessageCenter消息发送成功 -- [ " + destination + " ] - " + message);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }else if(destination.equals("person")){
+                    try {
+                        personChannel.sendMessage(message+"person");
+                        System.out.println("MessageCenter消息发送成功 -- [ " + destination + " ] - " + message);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
+
                 // channel.basicPublish("xiaoming", "xiaoming", properties, message.getBytes());
             }
         };

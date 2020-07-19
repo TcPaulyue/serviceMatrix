@@ -33,9 +33,6 @@ public class PersonReceiver extends ConnectionChannel{
         //声明一个临时队列，该队列会在使用完比后自动销毁 - 非必需
         queueName = channel.queueDeclare().getQueue();
 
-        // - 声明要关注的队列 - 非必需
-        //channel.queueDeclare(queueName, true, false, false, null);
-
         //server push消息时的队列长度 - 同一时刻服务器只会发一条消息给消费者  - 非必需
         channel.basicQos(1);
 

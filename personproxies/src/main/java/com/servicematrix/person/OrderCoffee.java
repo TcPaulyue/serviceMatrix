@@ -7,4 +7,6 @@ import java.util.Map;
 
 public interface OrderCoffee {
     public void orderCoffee(Channel channel, String EXCHANGE_NAME, String routingKey, Map<String,Object> headers) throws IOException;
+
+ //   public void print();
 }

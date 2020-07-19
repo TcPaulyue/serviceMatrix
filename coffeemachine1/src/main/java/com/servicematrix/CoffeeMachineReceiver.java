@@ -5,38 +5,30 @@ import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
-public class CoffeeMachine extends ConnectionChannel{
+public class CoffeeMachineReceiver extends ConnectionChannel{
+
+    private CoffeeMachineSender coffeeMachineSender;
 
     private String name;
 
-    private Double XLOC;
-
-    private Double YLOC;
-
-    private Map<String,Object> headers = new HashMap<String, Object>();
-
-    public CoffeeMachine(String name,Double XLOC,Double YLOC) throws Exception {
+    public CoffeeMachineReceiver(String name) throws Exception {
         super();
         this.name = name;
-        this.XLOC = XLOC;
-        this.YLOC = YLOC;
+    }
 
-        headers.put("name",this.name);
-        headers.put("XLOC",this.XLOC);
-        headers.put("YLOC",this.YLOC);
+    public void init() throws Exception {
+        this.queueName = name;
+        this.EXCHANGE_NAME = name;
 
-        this.queueName = headers.get("name").toString();
-        this.EXCHANGE_NAME = headers.get("name").toString();
-        this.routingKey = headers.get("name").toString();
         //声明一个队列 - 持久化
         channel.queueDeclare(queueName, true, false, false, null);
         //设置通道预取计数
         channel.basicQos(1);
-
+        this.routingKey = name;
         channel.exchangeDeclare(EXCHANGE_NAME, "topic", false, false, null);
+        channel.queueBind(queueName, EXCHANGE_NAME, routingKey);
+        coffeeMachineSender = new CoffeeMachineSender("messageCenter",2.00,3.00);
     }
 
 
@@ -64,7 +56,11 @@ public class CoffeeMachine extends ConnectionChannel{
                 System.out.println(properties.getHeaders().get("destination"));
                 String message = new String(body, "UTF-8");
                 System.out.println(" [x] Received '" + message + "'");
-                // process the message
+                try {
+                    coffeeMachineSender.sendMessage("coffeeMachine response.");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         };
         channel.basicConsume(queueName, true, consumer);
@@ -72,7 +68,8 @@ public class CoffeeMachine extends ConnectionChannel{
     }
 
     public static void main(String[] args) throws Exception {
-        CoffeeMachine coffeeMachine = new CoffeeMachine("xiaoming",3.00,4.00);
-        coffeeMachine.getMessage();
+        CoffeeMachineReceiver coffeeMachineReceiver = new CoffeeMachineReceiver("coffeeMachine");
+        coffeeMachineReceiver.init();
+        coffeeMachineReceiver.getMessage();
     }
 }

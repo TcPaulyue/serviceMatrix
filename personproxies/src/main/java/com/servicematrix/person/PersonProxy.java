@@ -7,6 +7,7 @@ import javassist.CtMethod;
 import javassist.Modifier;
 import javassist.bytecode.ClassFile;
 import javassist.bytecode.MethodInfo;
+import net.openhft.compiler.CompilerUtils;
 
 import java.lang.reflect.Method;
 import java.util.Map;
@@ -62,6 +63,18 @@ public class PersonProxy {
     public static void main(String[] args) throws Exception {
         try {
             update();
+
+//            String className = "com.servicematrix.person.MyClass";
+//            String javaCode = "package com.servicematrix.person;\n" +
+//                    "public class MyClass implements OrderCoffee {\n" +
+//                    "    public void print() {\n" +
+//                    "        System.out.println(\"Hello World\");\n" +
+//                    "    }\n" +
+//                    "}\n";
+//            Class aClass = CompilerUtils.CACHED_COMPILER.loadFromJava(className, javaCode);
+//            OrderCoffee runner = (OrderCoffee) aClass.newInstance();
+//            runner.print();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

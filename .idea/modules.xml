@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/codegeneration/codegeneration.iml" filepath="$PROJECT_DIR$/codegeneration/codegeneration.iml" />
       <module fileurl="file://$PROJECT_DIR$/coffeemachine1/coffeemachine1.iml" filepath="$PROJECT_DIR$/coffeemachine1/coffeemachine1.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/dynamicproxy.iml" filepath="$PROJECT_DIR$/dynamicproxies/dynamicproxy/dynamicproxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicproxies/javassist/javassist.iml" filepath="$PROJECT_DIR$/dynamicproxies/javassist/javassist.iml" />

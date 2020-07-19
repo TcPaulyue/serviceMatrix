@@ -19,4 +19,8 @@ public class OrderCoffeeService implements OrderCoffee {
         channel.basicPublish(EXCHANGE_NAME, routingKey, properties.build(), message.getBytes());
         System.out.println("orderCoffeeService: order a cup of coffee.");
     }
+
+//    public void print(){
+//        System.out.println("adccdcdcdcdc");
+//    }
 }

@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1b5dd1-a26d-4a03-978f-58b9cdb7b4a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/ConnectionChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/ConnectionChannel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coffeemachine1/target/classes/com/servicematrix/CoffeeMachine.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/ConnectionChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/ConnectionChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/PersonChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ServiceChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/MessageHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/MessageHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/MessageHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/ConnectionChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/ConnectionChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messagecenter/target/classes/com/servicematrix/messagecenter/PersonChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/personproxies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/personproxies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MessageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MessageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/ConnectionChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/ConnectionChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/OrderCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/OrderCoffee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/OrderCoffeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/OrderCoffeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/Person.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/Receiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/Receiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/dynamicLoad/MessageImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/dynamicLoad/MessageImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonReceiver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonReceiver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/personproxies/target/classes/com/servicematrix/person/PersonSender.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/coffeemachine2service/target/" />
     <ignored path="$PROJECT_DIR$/personservice/target/" />
@@ -41,6 +43,7 @@
     <ignored path="$PROJECT_DIR$/dynamicproxies/javassist/target/" />
     <ignored path="$PROJECT_DIR$/dynamicproxies/dynamicproxy/target/" />
     <ignored path="$PROJECT_DIR$/coffeemachine1/target/" />
+    <ignored path="$PROJECT_DIR$/codegeneration/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +56,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="-2860">
+              <caret line="243" column="34" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/codegenerator/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,9 +77,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="450">
+              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/resources/coffeeMacine.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/AST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1203">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ASTGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,59 +134,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+            <state relative-caret-position="-119">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#421#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="318">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,39 +164,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java">
+        <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="997">
+              <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-                <element signature="e#1941#1942#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2014#2015#0" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2072#2073#0" expanded="true" />
-                <element signature="e#2112#2113#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
-                <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#2221#2222#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2293#2294#0" expanded="true" />
-                <element signature="e#2324#2325#0" expanded="true" />
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#2382#2383#0" expanded="true" />
-                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/PersonChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -180,6 +188,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -190,6 +199,8 @@
       <find>coffeeFilterToCoffeeMachineFilter</find>
       <find>mc</find>
       <find>defineClass</find>
+      <find>getPayload</find>
+      <find>children</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/personservice/src/main/java/com/servicematrix/personservice</dir>
@@ -202,41 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/personproxy/pom.xml" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java" />
-        <option value="$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/UpdatePerson.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/Person.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/CoffeeMessage.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/PersonService.java" />
-        <option value="$PROJECT_DIR$/dynamicproxy/src/main/java/JdkProxyDemo.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/OrderCoffeeInterface.java" />
-        <option value="$PROJECT_DIR$/javassist/pom.xml" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/Consumer.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java" />
-        <option value="$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/ConnectionChannel.java" />
-        <option value="$PROJECT_DIR$/personproxies/pom.xml" />
-        <option value="$PROJECT_DIR$/messagecenter/pom.xml" />
-        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/messageHandler.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/LocalClass.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/ManageClassLoader.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/MyClassLoader.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Message.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/DynamicClassLoader.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/dynamicLoad/Main.java" />
         <option value="$PROJECT_DIR$/coffeemachine1/pom.xml" />
         <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/coffeemachine.java" />
         <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/Coffeemachine.java" />
@@ -245,14 +221,49 @@
         <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Person.java" />
         <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java" />
         <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java" />
         <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java" />
         <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/PersonChannel.java" />
-        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java" />
         <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java" />
-        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineSender.java" />
+        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java" />
         <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java" />
+        <option value="$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ServiceChannel.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java" />
+        <option value="$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineReceiver.java" />
+        <option value="$PROJECT_DIR$/personproxies/pom.xml" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java" />
+        <option value="$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/antlr4/JSON.g4" />
+        <option value="$PROJECT_DIR$/codegeneration/pom.xml" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr/JSONListener.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr/JSONBaseListener.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr4/JSONBaseListener.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr4/JSONListener.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr4/JSONParser.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr4/JSONLexer.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONBaseListener.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ASTGenerater.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/resources/coffeeMacine.json" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/AST.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/MyJsonVistor.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonNodeFactory.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ArrayNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/NodeType.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ObjectNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/StringNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/IntNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/ArrayNode.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonVisitor.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/MyJsonVisitor.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONParser.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ASTGenerator.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONArray.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONObject.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java" />
+        <option value="$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/codegenerator/CodeGenerator.java" />
       </list>
     </option>
   </component>
@@ -283,6 +294,87 @@
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="codegenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="syntaxTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="codegeneration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
@@ -319,76 +411,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servicematrix" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="messagecenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serviceMatrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serviceMatrix" type="462c0819:PsiDirectoryNode" />
-              <item name="personproxies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -421,6 +443,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codegeneration/src/main/java/com/servicematrix/antlr" />
       <recent name="$PROJECT_DIR$/dynamicproxies" />
       <recent name="$PROJECT_DIR$/v1" />
       <recent name="$PROJECT_DIR$" />
@@ -444,26 +467,13 @@
     </option>
     <option name="contentProportion" value="0.22806123" />
   </component>
-  <component name="RunManager" selected="Application.MessageHandler">
-    <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.servicematrix.CoffeeMachine" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="CoffeeMachineReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.servicematrix.CoffeeMachineReceiver" />
       <module name="coffeemachine1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.servicematrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.servicematrix.person.dynamicLoad.Main" />
-      <module name="personproxies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.servicematrix.person.dynamicLoad.DynamicClassLoader" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,6 +513,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.servicematrix.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegeneration.main" />
+      <module name="codegeneration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegeneration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,11 +605,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.CoffeeMachineReceiver" />
         <item itemvalue="Application.PersonProxy" />
-        <item itemvalue="Application.MessageHandler" />
         <item itemvalue="Application.PersonReceiver" />
-        <item itemvalue="Application.CoffeeMachine" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MessageHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -614,7 +637,7 @@
       <workItem from="1594005379658" duration="8132000" />
       <workItem from="1594198775046" duration="14142000" />
       <workItem from="1594537800779" duration="5766000" />
-      <workItem from="1594552672214" duration="39384000" />
+      <workItem from="1594552672214" duration="54438000" />
     </task>
     <servers />
   </component>
@@ -639,7 +662,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109384000" />
+    <option name="totallyTimeSpent" value="124438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,7 +677,7 @@
     <frame x="0" y="23" width="2048" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29208416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29208416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -663,18 +686,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.2782516" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.23027718" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.5053305" />
       <window_info anchor="bottom" id="Docker" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="4" weight="0.32942432" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.17270789" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.56929636" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942432" />
       <window_info anchor="bottom" id="ANTLR Preview" order="9" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.3848614" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.29424307" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.26652452" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.4445629" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.3251599" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.32942432" />
@@ -783,15 +806,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java</url>
-          <line>57</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java</url>
-          <line>32</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/codegenerator/CodeGenerator.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/codegenerator/CodeGenerator.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -799,242 +846,18 @@
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="this" />
       </configuration>
+      <configuration name="Application">
+        <watch expression="ast" />
+        <watch expression="objCtx" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="XtextAutoBuilderState">
     <installedLanguages>xtend;xtext</installedLanguages>
-    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB3cgAAAAYADW1lc3NhZ2VjZW50ZXIAAAAAAA1wZXJzb25wcm94aWVzAAAAAAANc2VydmljZU1hdHJpeAAAAAAADGR5bmFtaWNwcm94eQAAAAAADmNvZmZlZW1hY2hpbmUxAAAAAAAJamF2YXNzaXN0AAAAAHg=</index>
-    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAGdAANbWVzc2FnZWNlbnRlcnNyAC9vcmcuZWNsaXBzZS54dGV4dC5idWlsZC5Tb3VyY2UyR2VuZXJhdGVkTWFwcGluZ2DBzUbtkYbKDAAAeHB3BAAAAAB4dAANcGVyc29ucHJveGllc3NxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AA5jb2ZmZWVtYWNoaW5lMXNxAH4AA3cEAAAAAHh0AAlqYXZhc3Npc3RzcQB+AAN3BAAAAAB4eA==</module2generated>
+    <index>rO0ABXNyADtvcmcuZWNsaXBzZS54dGV4dC5yZXNvdXJjZS5pbXBsLkNodW5rZWRSZXNvdXJjZURlc2NyaXB0aW9uc4nX+GBmyGixDAAAeHB3hgAAAAcADW1lc3NhZ2VjZW50ZXIAAAAAAA1wZXJzb25wcm94aWVzAAAAAAANc2VydmljZU1hdHJpeAAAAAAADGR5bmFtaWNwcm94eQAAAAAADmNvZGVnZW5lcmF0aW9uAAAAAAAOY29mZmVlbWFjaGluZTEAAAAAAAlqYXZhc3Npc3QAAAAAeA==</index>
+    <module2generated>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAHdAANbWVzc2FnZWNlbnRlcnNyAC9vcmcuZWNsaXBzZS54dGV4dC5idWlsZC5Tb3VyY2UyR2VuZXJhdGVkTWFwcGluZ2DBzUbtkYbKDAAAeHB3BAAAAAB4dAANcGVyc29ucHJveGllc3NxAH4AA3cEAAAAAHh0AA1zZXJ2aWNlTWF0cml4c3EAfgADdwQAAAAAeHQADGR5bmFtaWNwcm94eXNxAH4AA3cEAAAAAHh0AA5jb2RlZ2VuZXJhdGlvbnNxAH4AA3cEAAAAAHh0AA5jb2ZmZWVtYWNoaW5lMXNxAH4AA3cEAAAAAHh0AAlqYXZhc3Npc3RzcQB+AAN3BAAAAAB4eA==</module2generated>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/QuartzConfig.java" />
-    <entry file="file://$PROJECT_DIR$/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonLocation.java" />
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonproxyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/CoffeeMessagePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/coffeemachine1filter/src/main/java/com/servicematrix/coffeemachine1filter/CoffeeMachineFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/PersonInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/personfilter/src/main/java/com/servicematrix/personfilter/CoffeeMessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/test/java/com/servicematrix/personproxy/PersonproxyApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#45#46#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/dynamicproxy/src/main/java/DaoProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/PersonInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="37" column="1" selection-start-line="7" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/domain/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/PersonI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javassist/src/main/java/com/servicematrix/javassist/com/servicematrix/javassist/PersonService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/OrderCoffeeInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/CoffeeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/ConnectionChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/personproxy/src/main/java/com/servicematrix/personproxy/BuyCoffeeProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/BuyCoffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/UpdatePerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="66" column="5" selection-start-line="15" selection-start-column="1" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamicproxies/javassist/src/main/java/com/servicematrix/javassist/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1100,24 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeemachine1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personproxies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1148,27 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ConnectionChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1179,17 +967,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/PersonChannel.java">
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+        <state relative-caret-position="408">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/ConnectionChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/ServiceChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="444">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1415#1416#0" expanded="true" />
@@ -1213,50 +1021,382 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state relative-caret-position="460">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messagecenter/src/main/java/com/servicematrix/messagecenter/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="396">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/OrderCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSON.interp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="477">
+          <caret line="80" column="5" selection-start-line="62" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/codegeneration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        <state relative-caret-position="234">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/antlr4/JSON.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#69#0" expanded="true" />
+            <element signature="e#0#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/ArrayNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/NodeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/ObjectNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/StringNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/JsonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/node/IntNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personproxies/src/main/java/com/servicematrix/person/PersonReceiver.java">
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/MyJsonVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="316">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2671#2672#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2807#2808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JsonNodeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.codegeneration.syntaxTree.AST">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.codegeneration.syntaxTree.AST</OriginalElement>
+          <nodes>
+            <node x="" y="">com.codegeneration.syntaxTree.AST</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/AST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1203">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/ASTGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/antlr4/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2860">
+          <caret line="243" column="34" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coffeemachine1/src/main/java/com/servicematrix/CoffeeMachineReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/resources/coffeeMacine.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/syntaxTree/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/codegenerator/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneration/src/main/java/com/codegeneration/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

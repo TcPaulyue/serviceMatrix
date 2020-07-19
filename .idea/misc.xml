@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/dynamicproxies/javassist/pom.xml" />
         <option value="$PROJECT_DIR$/dynamicproxies/dynamicproxy/pom.xml" />
         <option value="$PROJECT_DIR$/coffeemachine1/pom.xml" />
+        <option value="$PROJECT_DIR$/codegeneration/pom.xml" />
       </list>
     </option>
   </component>
